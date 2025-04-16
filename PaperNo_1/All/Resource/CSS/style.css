@@ -1,0 +1,167 @@
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo img {
+    width: 60px;
+    margin-left: 40px;
+}
+
+.menu {
+    margin-right: 100px;
+}
+
+.header .menu ul {
+    display: flex;
+    font-weight: bold;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header .menu a {
+    text-decoration: none;
+    margin: 20px;
+    color: turquoise;
+}
+
+.header .search button {
+    background-color: black;
+    color: white;
+}
+
+.header .search form {
+    margin-top: 15px;
+}
+
+/* section1 */
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .banner img {
+    width: 830px;
+    margin-left: 50px;
+}
+
+.content-right div img {
+    width: 150px;
+    margin-left: -10px;
+}
+
+.content-right {
+    margin-left: 40px;
+    width: 600px;
+}
+
+.content-right h1 {
+    margin-top: 0;
+    color: rgb(7, 150, 150);
+    margin-left: -15px;
+}
+
+.content-right .room {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+    gap: 15px;
+}
+
+.info p {
+    margin: 4px 0;
+    line-height: 1.9;
+}
+
+.info .price {
+    color: orange;
+}
+
+/* section2 */
+.detailed-content div img {
+    margin-left: 50px;
+    width: 760px;
+    height: 607px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(7, 150, 150);
+}
+
+.detailed-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.booking {
+    width: 100%;
+    margin-left: 15px;
+    padding: 30px 40px;
+    background-color: #f3e7df;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.booking h3 {
+    text-align: center;
+    color: orange;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.booking div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.booking label {
+    width: 150px;
+    font-weight: bold;
+}
+
+
+.booking input[type="text"],
+.booking select {
+    flex: 1;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking div {
+    text-align: center;
+}
+
+.booking div p {
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+
+.booking p {
+    width: 20%;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+    font-weight: bold;
+
+
+}
+
+.booking p:hover {
+    background-color: darkorange;
+}
+
+/* section3 */
+.detailedFeedback {
+    display: flex;
+}
