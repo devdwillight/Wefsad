@@ -164,5 +164,30 @@ h2 {
 /* section3 */
 .detailedFeedback {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.detailedFeedback img {
+    border-radius: 100px;
+}
+
+.feedback-item {
+    width: 15%;
+    text-align: center;
+}
+
+.footer {
+    background-color: aqua;
+    color: white;
+}
+
+.footer-detail {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright {
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
 }
